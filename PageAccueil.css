@@ -4,41 +4,52 @@
 
 header
 {
-    height: 120px;
+    width: 100%;
+    height: 150px;
     background-color: rgb(141, 210, 231);
-    
+}
+nav, ul
+{
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
 }
 
 img
-{
-    
+{  
     width: 100px;
-    height: 110px;
-    }
-
-
+    height: 150px;
+    float: left;
+}
 
 h1
-    {
+{
+    position: relative;
     text-align: center;
 }
 
-ul{
-    
+ul
+{    
+    margin-top: 40px;
+    position: absolute;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-a
-{
-text-decoration: none;
-color: black;
 }
 
-
-#moulin
+ul a
 {
-    float: left;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(144, 235, 179);
+    border: solid black 1px;
+    text-decoration: none;
+    color: blue;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .background {
@@ -47,19 +58,14 @@ color: black;
     background-position: center;
     background-size: cover;
     height: 550px;
-    margin-top: 40px;
-    
+    margin-top: 40px;    
 }
-.menu
-{
-    margin-top: 20px;
-}
-p
 
 .section1
 {
     text-align: center;
 }
+
 .titreSection1
 {
     margin-top: 30px;
@@ -67,25 +73,30 @@ p
     text-align: center;
     margin-bottom: 10px;
 }
+
 .loremSection1
 {
 
 }
+
 .piscine
 {
     margin: 20px;
     height: 450px;
     width: 450px;
 }
+
 .section2
 {
     display: flexbox;
     margin-top: 40px;
 }
+
 .section2
 {
     background-color: rgb(221, 207, 190);
 }
+
 .chambre
 {
     margin: 20px;
