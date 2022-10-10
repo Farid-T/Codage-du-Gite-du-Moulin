@@ -1,0 +1,94 @@
+* { 
+    margin: 0 20px;
+}
+
+header
+{
+    height: 120px;
+    background-color: rgb(141, 210, 231);
+    
+}
+
+img
+{
+    
+    width: 100px;
+    height: 110px;
+    }
+
+
+
+h1
+    {
+    text-align: center;
+}
+
+ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+a
+{
+text-decoration: none;
+color: black;
+}
+
+
+#moulin
+{
+    float: left;
+}
+
+.background {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHEa29yzXHPI5ER30hrBgidh_0Dx8tQUcZMA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    margin-top: 40px;
+    
+}
+.menu
+{
+    margin-top: 20px;
+}
+p
+
+.section1
+{
+    text-align: center;
+}
+.titreSection1
+{
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.loremSection1
+{
+
+}
+.piscine
+{
+    margin: 20px;
+    height: 450px;
+    width: 450px;
+}
+.section2
+{
+    display: flexbox;
+    margin-top: 40px;
+}
+.section2
+{
+    background-color: rgb(221, 207, 190);
+}
+.chambre
+{
+    margin: 20px;
+    height: 450px;
+    width: 450px;
+}
